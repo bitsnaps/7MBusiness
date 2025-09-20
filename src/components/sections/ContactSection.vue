@@ -52,10 +52,10 @@ const socialLinks = [
             <div
               v-for="info in contactInfo"
               :key="info.title"
-              class="flex items-start space-x-4"
+              class="flex items-center space-x-4"
             >
-              <div class="text-2xl">{{ info.icon }}</div>
-              <div>
+              <div class="flex items-center justify-center w-8 h-8 text-2xl flex-shrink-0">{{ info.icon }}</div>
+              <div class="min-w-0">
                 <h4 class="font-semibold text-lg mb-1">{{ info.title }}</h4>
                 <p class="text-blue-100 mb-1">{{ info.value }}</p>
                 <p class="text-blue-200 text-sm">{{ info.description }}</p>
