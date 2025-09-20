@@ -1,6 +1,9 @@
 <script setup lang="ts">
 import { ref } from 'vue'
+import { useI18n } from 'vue-i18n'
+import LanguageSelector from '@/components/ui/LanguageSelector.vue'
 
+const { t } = useI18n()
 const isMenuOpen = ref(false)
 
 const toggleMenu = () => {
@@ -27,30 +30,31 @@ const closeMenu = () => {
         </div>
 
         <!-- Desktop Navigation -->
-        <nav class="hidden md:flex items-center space-x-8">
+        <nav class="hidden md:flex items-center space-x-6">
           <router-link
             to="/"
             class="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors"
             active-class="text-blue-600"
           >
-            Home
+            {{ t('nav.home') }}
           </router-link>
           <router-link
             to="/services"
             class="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors"
             active-class="text-blue-600"
           >
-            Services
+            {{ t('nav.services') }}
           </router-link>
           <router-link
             to="/dashboard"
             class="text-gray-700 hover:text-blue-600 px-3 py-2 text-sm font-medium transition-colors"
             active-class="text-blue-600"
           >
-            Dashboard
+            {{ t('nav.dashboard') }}
           </router-link>
+          <LanguageSelector />
           <button class="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors">
-            Get Started
+            {{ t('nav.getStarted') }}
           </button>
         </nav>
 
@@ -93,7 +97,7 @@ const closeMenu = () => {
             active-class="text-blue-600"
             @click="closeMenu"
           >
-            Home
+            {{ t('nav.home') }}
           </router-link>
           <router-link
             to="/services"
@@ -101,7 +105,7 @@ const closeMenu = () => {
             active-class="text-blue-600"
             @click="closeMenu"
           >
-            Services
+            {{ t('nav.services') }}
           </router-link>
           <router-link
             to="/dashboard"
@@ -109,13 +113,16 @@ const closeMenu = () => {
             active-class="text-blue-600"
             @click="closeMenu"
           >
-            Dashboard
+            {{ t('nav.dashboard') }}
           </router-link>
+          <div class="px-3 py-2">
+            <LanguageSelector />
+          </div>
           <button
             class="bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors w-fit"
             @click="closeMenu"
           >
-            Get Started
+            {{ t('nav.getStarted') }}
           </button>
         </nav>
       </div>

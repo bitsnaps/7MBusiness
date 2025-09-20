@@ -1,4 +1,236 @@
 {
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "dashboard": "Dashboard",
+    "getStarted": "Get Started"
+  },
+  "header": {
+    "brand": "Coach 360",
+    "allSystemsOperational": "All systems operational"
+  },
+  "footer": {
+    "services": "Services",
+    "platform": "Platform",
+    "company": "Company",
+    "individualCoaching": "Individual Coaching",
+    "teamCoaching": "Team Coaching",
+    "businessCoaching": "Business Coaching",
+    "economicCoaching": "Economic Coaching",
+    "childrenCoaching": "Children's Coaching",
+    "aiCoach": "AI Coach",
+    "dashboard": "Dashboard",
+    "reports": "Reports",
+    "analytics": "Analytics",
+    "aboutUs": "About Us",
+    "contact": "Contact",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "description": "AI-powered comprehensive coaching platform providing personalized coaching services across multiple domains."
+  },
+  "hero": {
+    "title": "Transform Your Potential with",
+    "titleHighlight": "AI-Powered Coaching",
+    "subtitle": "Experience the future of personal and professional development with Coach 360's comprehensive AI-driven coaching platform across all life domains.",
+    "startJourney": "Start Your Journey",
+    "watchDemo": "Watch Demo",
+    "comprehensiveApproach": "Comprehensive Approach",
+    "intelligentInsights": "Intelligent Insights",
+    "alwaysAvailable": "Always Available"
+  },
+  "services": {
+    "title": "Comprehensive Coaching Services",
+    "subtitle": "Discover our full range of AI-powered coaching services designed to support individuals, teams, businesses, and organizations across all domains.",
+    "individualCoaching": {
+      "title": "Individual Coaching",
+      "description": "Personalized one-on-one coaching sessions tailored to your unique goals and development needs.",
+      "features": ["Personalized development plans", "Individual progress tracking", "Flexible scheduling", "24/7 AI support", "Goal-oriented sessions"],
+      "benefits": ["Accelerated personal growth", "Improved self-awareness", "Enhanced decision-making skills", "Increased confidence and motivation"],
+      "duration": "60 minutes per session",
+      "frequency": "Weekly or bi-weekly"
+    },
+    "teamCoaching": {
+      "title": "Team Coaching",
+      "description": "Optimize team dynamics and leadership skills with comprehensive group coaching programs.",
+      "features": ["Team dynamics optimization", "Leadership development", "Group coaching sessions", "Conflict resolution strategies", "Performance metrics tracking"],
+      "benefits": ["Improved team collaboration", "Enhanced leadership capabilities", "Better communication skills", "Increased productivity and efficiency"],
+      "duration": "90 minutes per session",
+      "frequency": "Weekly team sessions"
+    },
+    "businessCoaching": {
+      "title": "Business Coaching",
+      "description": "Strategic business guidance to optimize performance and drive organizational growth.",
+      "features": ["Business strategy development", "Performance optimization", "Process improvement", "Change management", "Executive leadership coaching"],
+      "benefits": ["Strategic business growth", "Improved operational efficiency", "Enhanced competitive advantage", "Sustainable organizational development"],
+      "duration": "75 minutes per session",
+      "frequency": "Bi-weekly or monthly"
+    },
+    "economicCoaching": {
+      "title": "Economic Coaching",
+      "description": "Navigate economic trends and make informed financial decisions with expert guidance.",
+      "features": ["Financial strategy guidance", "Economic trend analysis", "Investment coaching", "Market intelligence", "Risk assessment and management"],
+      "benefits": ["Improved financial decision-making", "Better investment strategies", "Enhanced economic understanding", "Long-term wealth building"],
+      "duration": "60 minutes per session",
+      "frequency": "As needed basis"
+    },
+    "childrenCoaching": {
+      "title": "Children's Coaching",
+      "description": "Support young minds with age-appropriate coaching for personal growth and development.",
+      "features": ["Youth development programs", "Educational coaching", "Personal growth", "Social skills development", "Confidence building"],
+      "benefits": ["Enhanced self-esteem", "Improved academic performance", "Better social interactions", "Stronger emotional intelligence"],
+      "duration": "45 minutes per session",
+      "frequency": "Weekly sessions"
+    },
+    "learnMore": "Learn More",
+    "getPersonalizedRecommendation": "Get Personalized Recommendation",
+    "notSure": "Not sure which service is right for you?",
+    "aiRecommendation": "Our AI-powered recommendation system can help you find the perfect coaching solution based on your unique goals and needs.",
+    "backToHome": "Back to Home"
+  },
+  "features": {
+    "title": "Powered by Advanced AI Technology",
+    "subtitle": "Experience the future of coaching with our cutting-edge AI platform that delivers personalized insights, real-time feedback, and comprehensive analytics.",
+    "aiCoach": {
+      "title": "AI Coach",
+      "description": "Intelligent coaching recommendations powered by advanced AI algorithms that adapt to your learning style and goals.",
+      "benefits": ["Personalized recommendations", "Adaptive learning paths", "24/7 availability"]
+    },
+    "dashboard": {
+      "title": "Interactive Dashboard",
+      "description": "Real-time data visualization and progress tracking with comprehensive analytics and insights.",
+      "benefits": ["Real-time tracking", "Visual analytics", "Progress insights"]
+    },
+    "reports": {
+      "title": "Smart Reports",
+      "description": "Comprehensive reporting system with detailed analytics, trend identification, and predictive modeling.",
+      "benefits": ["Detailed analytics", "Trend identification", "Predictive insights"]
+    },
+    "monitoring": {
+      "title": "Real-time Monitoring",
+      "description": "Continuous assessment and feedback systems that track your progress and provide instant guidance.",
+      "benefits": ["Continuous assessment", "Instant feedback", "Goal monitoring"]
+    },
+    "stats": {
+      "activeUsers": "Active Users",
+      "successRate": "Success Rate",
+      "aiSupport": "AI Support",
+      "coachingDomains": "Coaching Domains"
+    },
+    "ctaTitle": "Ready to Experience the Future of Coaching?",
+    "ctaSubtitle": "Join thousands of users who have transformed their personal and professional lives with our AI-powered coaching platform.",
+    "startFreeTrial": "Start Free Trial"
+  },
+  "about": {
+    "title": "About Coach 360",
+    "subtitle": "We're pioneering the future of coaching by combining human expertise with artificial intelligence to create transformative learning experiences.",
+    "mission": "Our Mission",
+    "missionText": "To democratize access to high-quality coaching by leveraging AI technology to provide personalized, affordable, and accessible coaching solutions that help individuals, teams, and organizations achieve their full potential across all domains of life.",
+    "values": {
+      "innovation": {
+        "title": "Innovation",
+        "description": "We leverage cutting-edge AI technology to deliver personalized coaching experiences."
+      },
+      "excellence": {
+        "title": "Excellence",
+        "description": "Our platform maintains the highest standards of coaching quality and user experience."
+      },
+      "accessibility": {
+        "title": "Accessibility",
+        "description": "We make professional coaching accessible to everyone, regardless of location or schedule."
+      },
+      "results": {
+        "title": "Results",
+        "description": "Our data-driven approach ensures measurable progress and tangible outcomes."
+      }
+    },
+    "team": {
+      "title": "Meet Our Leadership Team",
+      "subtitle": "Our diverse team of AI experts, certified coaches, and researchers work together to create the most advanced coaching platform available.",
+      "chiefAIOfficer": "Chief AI Officer",
+      "headOfCoaching": "Head of Coaching",
+      "researchDirector": "Research Director",
+      "leadingAI": "Leading AI research and development with 15+ years in machine learning.",
+      "certifiedCoach": "Certified executive coach with expertise in leadership development.",
+      "phdPsychology": "PhD in Psychology, specializing in behavioral science and coaching methodologies."
+    }
+  },
+  "contact": {
+    "title": "Ready to Transform Your Life?",
+    "subtitle": "Join thousands of individuals and organizations who have already started their journey to success with Coach 360. Get started today and unlock your potential.",
+    "getInTouch": "Get In Touch",
+    "contactInfo": {
+      "email": {
+        "title": "Email",
+        "value": "hello@coach360.ai",
+        "description": "Get in touch with our team"
+      },
+      "phone": {
+        "title": "Phone",
+        "value": "+1 (555) 123-4567",
+        "description": "Speak with a coaching expert"
+      },
+      "address": {
+        "title": "Address",
+        "value": "123 Innovation Drive, Tech City, TC 12345",
+        "description": "Visit our headquarters"
+      }
+    },
+    "followUs": "Follow Us",
+    "social": {
+      "twitter": "Twitter",
+      "linkedin": "LinkedIn",
+      "facebook": "Facebook",
+      "instagram": "Instagram"
+    },
+    "form": {
+      "title": "Start Your Journey",
+      "fullName": "Full Name",
+      "email": "Email Address",
+      "areaOfInterest": "Area of Interest",
+      "message": "Message",
+      "placeholder": {
+        "name": "Enter your full name",
+        "email": "Enter your email address",
+        "selectInterest": "Select your area of interest",
+        "message": "Tell us about your goals..."
+      },
+      "options": {
+        "individual": "Individual Coaching",
+        "team": "Team Coaching",
+        "business": "Business Coaching",
+        "economic": "Economic Coaching",
+        "children": "Children's Coaching"
+      },
+      "getStarted": "Get Started Today"
+    },
+    "newsletter": {
+      "title": "Stay Updated",
+      "subtitle": "Subscribe to our newsletter for the latest coaching insights and platform updates.",
+      "emailPlaceholder": "Enter your email",
+      "subscribe": "Subscribe"
+    }
+  },
   "dashboard": {
- }
+    "title": "Your AI-Powered Dashboard",
+    "subtitle": "Track your progress, analyze your performance, and get intelligent insights to accelerate your personal and professional growth.",
+    "overallProgress": "Overall Progress",
+    "stats": {
+      "totalSessions": "Total Sessions",
+      "goalsCompleted": "Goals Completed",
+      "dayStreak": "Day Streak",
+      "avgProgress": "Avg. Progress"
+    },
+    "recentSessions": "Recent Sessions",
+    "aiInsights": "AI Insights",
+    "goalsProgress": "Goals Progress",
+    "status": {
+      "completed": "completed",
+      "needsAttention": "needs attention",
+      "onTrack": "on track"
+    },
+    "ctaTitle": "Ready for Your Next Session?",
+    "ctaSubtitle": "Schedule your next coaching session and continue your journey to success with personalized guidance from our expert coaches.",
+    "scheduleSession": "Schedule Next Session",
+    "backToHome": "Back to Home"
+  }
 }
