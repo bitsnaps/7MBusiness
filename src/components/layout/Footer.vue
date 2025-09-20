@@ -44,6 +44,18 @@
             <li><a href="#" class="text-gray-300 hover:text-blue-400 transition-colors">Team Coaching</a></li>
             <li><a href="#" class="text-gray-300 hover:text-blue-400 transition-colors">Business Coaching</a></li>
             <li><a href="#" class="text-gray-300 hover:text-blue-400 transition-colors">Economic Coaching</a></li>
+            <li><a href="#" class="text-gray-300 hover:text-blue-400 transition-colors">Children's Coaching</a></li>
+          </ul>
+        </div>
+
+        <!-- Platform -->
+        <div>
+          <h3 class="text-lg font-semibold mb-4">Platform</h3>
+          <ul class="space-y-2">
+            <li><a href="#" class="text-gray-300 hover:text-blue-400 transition-colors">AI Coach</a></li>
+            <li><a href="#" class="text-gray-300 hover:text-blue-400 transition-colors">Dashboard</a></li>
+            <li><a href="#" class="text-gray-300 hover:text-blue-400 transition-colors">Reports</a></li>
+            <li><a href="#" class="text-gray-300 hover:text-blue-400 transition-colors">Analytics</a></li>
           </ul>
         </div>
 
