@@ -1,5 +1,7 @@
 <script setup lang="ts">
-// Hero section - main banner with call-to-action
+import { useI18n } from 'vue-i18n'
+
+const { t } = useI18n()
 </script>
 
 <template>
@@ -15,25 +17,24 @@
       <div class="text-center">
         <!-- Main heading -->
         <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
-          Transform Your Potential with
+          {{ t('hero.title') }}
           <span class="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-            AI-Powered Coaching
+            {{ t('hero.titleHighlight') }}
           </span>
         </h1>
 
         <!-- Subtitle -->
         <p class="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
-          Experience the future of personal and professional development with Coach 360's
-          comprehensive AI-driven coaching platform across all life domains.
+          {{ t('hero.subtitle') }}
         </p>
 
         <!-- CTA Buttons -->
         <div class="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
           <button class="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-semibold py-4 px-8 rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
-            Start Your Journey
+            {{ t('hero.startJourney') }}
           </button>
           <button class="border-2 border-white/30 hover:border-white/50 text-white font-semibold py-4 px-8 rounded-lg transition-all duration-300 hover:bg-white/10">
-            Watch Demo
+            {{ t('hero.watchDemo') }}
           </button>
         </div>
 
@@ -41,15 +42,15 @@
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
           <div class="text-center">
             <div class="text-3xl md:text-4xl font-bold text-blue-400 mb-2">360°</div>
-            <div class="text-gray-300">Comprehensive Approach</div>
+            <div class="text-gray-300">{{ t('hero.comprehensiveApproach') }}</div>
           </div>
           <div class="text-center">
             <div class="text-3xl md:text-4xl font-bold text-purple-400 mb-2">AI</div>
-            <div class="text-gray-300">Intelligent Insights</div>
+            <div class="text-gray-300">{{ t('hero.intelligentInsights') }}</div>
           </div>
           <div class="text-center">
             <div class="text-3xl md:text-4xl font-bold text-green-400 mb-2">24/7</div>
-            <div class="text-gray-300">Always Available</div>
+            <div class="text-gray-300">{{ t('hero.alwaysAvailable') }}</div>
           </div>
         </div>
       </div>

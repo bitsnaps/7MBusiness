@@ -1,5 +1,7 @@
 <script setup lang="ts">
-// Footer component with links and company information
+import { useI18n } from 'vue-i18n'
+
+const { t } = useI18n()
 </script>
 
 <template>
@@ -28,7 +30,7 @@
           </div>
 
           <p class="text-slate-300 text-lg leading-relaxed max-w-md">
-            AI-powered comprehensive coaching platform providing personalized coaching services across multiple domains.
+            {{ t('footer.description') }}
           </p>
 
           <!-- Social Links -->
@@ -53,60 +55,60 @@
 
         <!-- Services -->
         <div class="lg:col-span-2">
-          <h3 class="text-xl font-bold mb-6 bg-gradient-to-r from-white to-blue-200 bg-clip-text text-transparent">Services</h3>
+          <h3 class="text-xl font-bold mb-6 bg-gradient-to-r from-white to-blue-200 bg-clip-text text-transparent">{{ t('footer.services') }}</h3>
           <ul class="space-y-3 list-none">
             <li><a href="#" class="group text-slate-300 hover:text-white transition-all duration-300 hover:translate-x-1 no-underline">
-              Individual Coaching
+              {{ t('footer.individualCoaching') }}
             </a></li>
             <li><a href="#" class="group text-slate-300 hover:text-white transition-all duration-300 hover:translate-x-1 no-underline">
-              Team Coaching
+              {{ t('footer.teamCoaching') }}
             </a></li>
             <li><a href="#" class="group text-slate-300 hover:text-white transition-all duration-300 hover:translate-x-1 no-underline">
-              Business Coaching
+              {{ t('footer.businessCoaching') }}
             </a></li>
             <li><a href="#" class="group text-slate-300 hover:text-white transition-all duration-300 hover:translate-x-1 no-underline">
-              Economic Coaching
+              {{ t('footer.economicCoaching') }}
             </a></li>
             <li><a href="#" class="group text-slate-300 hover:text-white transition-all duration-300 hover:translate-x-1 no-underline">
-              Children's Coaching
+              {{ t('footer.childrenCoaching') }}
             </a></li>
           </ul>
         </div>
 
         <!-- Platform -->
         <div class="lg:col-span-2">
-          <h3 class="text-xl font-bold mb-6 bg-gradient-to-r from-white to-blue-200 bg-clip-text text-transparent">Platform</h3>
+          <h3 class="text-xl font-bold mb-6 bg-gradient-to-r from-white to-blue-200 bg-clip-text text-transparent">{{ t('footer.platform') }}</h3>
           <ul class="space-y-3 list-none">
             <li><a href="#" class="group text-slate-300 hover:text-white transition-all duration-300 hover:translate-x-1 no-underline">
-              AI Coach
+              {{ t('footer.aiCoach') }}
             </a></li>
             <li><a href="#" class="group text-slate-300 hover:text-white transition-all duration-300 hover:translate-x-1 no-underline">
-              Dashboard
+              {{ t('footer.dashboard') }}
             </a></li>
             <li><a href="#" class="group text-slate-300 hover:text-white transition-all duration-300 hover:translate-x-1 no-underline">
-              Reports
+              {{ t('footer.reports') }}
             </a></li>
             <li><a href="#" class="group text-slate-300 hover:text-white transition-all duration-300 hover:translate-x-1 no-underline">
-              Analytics
+              {{ t('footer.analytics') }}
             </a></li>
           </ul>
         </div>
 
         <!-- Company -->
         <div class="lg:col-span-3">
-          <h3 class="text-xl font-bold mb-6 bg-gradient-to-r from-white to-blue-200 bg-clip-text text-transparent">Company</h3>
+          <h3 class="text-xl font-bold mb-6 bg-gradient-to-r from-white to-blue-200 bg-clip-text text-transparent">{{ t('footer.company') }}</h3>
           <ul class="space-y-3 list-none">
             <li><a href="#" class="group text-slate-300 hover:text-white transition-all duration-300 hover:translate-x-1 no-underline">
-              About Us
+              {{ t('footer.aboutUs') }}
             </a></li>
             <li><a href="#" class="group text-slate-300 hover:text-white transition-all duration-300 hover:translate-x-1 no-underline">
-              Contact
+              {{ t('footer.contact') }}
             </a></li>
             <li><a href="#" class="group text-slate-300 hover:text-white transition-all duration-300 hover:translate-x-1 no-underline">
-              Privacy Policy
+              {{ t('footer.privacyPolicy') }}
             </a></li>
             <li><a href="#" class="group text-slate-300 hover:text-white transition-all duration-300 hover:translate-x-1 no-underline">
-              Terms of Service
+              {{ t('footer.termsOfService') }}
             </a></li>
           </ul>
         </div>
@@ -118,12 +120,12 @@
         <div class="relative border-t border-white/10 pt-8">
           <div class="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p class="text-slate-400 text-sm">
-              © {{ new Date().getFullYear() }} Coach 360. All rights reserved.
+              © {{ new Date().getFullYear() }} {{ t('header.brand') }}. All rights reserved.
             </p>
             <div class="flex items-center space-x-6 text-sm text-slate-400">
               <span class="flex items-center space-x-2">
                 <div class="w-2 h-2 bg-emerald-400 rounded-full animate-pulse"></div>
-                <span>All systems operational</span>
+                <span>{{ t('header.allSystemsOperational') }}</span>
               </span>
             </div>
           </div>

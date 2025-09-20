@@ -1,31 +1,28 @@
 <script setup lang="ts">
-// Contact section - contact information and final CTA
+import { useI18n } from 'vue-i18n'
+
+const { t } = useI18n()
+
 const contactInfo = [
   {
-    title: 'Email',
-    value: 'hello@coach360.ai',
-    icon: '📧',
-    description: 'Get in touch with our team'
+    key: 'email',
+    icon: '📧'
   },
   {
-    title: 'Phone',
-    value: '+1 (555) 123-4567',
-    icon: '📞',
-    description: 'Speak with a coaching expert'
+    key: 'phone',
+    icon: '📞'
   },
   {
-    title: 'Address',
-    value: '123 Innovation Drive, Tech City, TC 12345',
-    icon: '📍',
-    description: 'Visit our headquarters'
+    key: 'address',
+    icon: '📍'
   }
 ]
 
 const socialLinks = [
-  { name: 'Twitter', icon: '🐦', url: '#' },
-  { name: 'LinkedIn', icon: '💼', url: '#' },
-  { name: 'Facebook', icon: '📘', url: '#' },
-  { name: 'Instagram', icon: '📷', url: '#' }
+  { key: 'twitter', icon: '🐦', url: '#' },
+  { key: 'linkedin', icon: '💼', url: '#' },
+  { key: 'facebook', icon: '📘', url: '#' },
+  { key: 'instagram', icon: '📷', url: '#' }
 ]
 </script>
 
@@ -35,41 +32,61 @@ const socialLinks = [
       <!-- Section header -->
       <div class="text-center mb-16">
         <h2 class="text-3xl md:text-4xl font-bold mb-4">
-          Ready to Transform Your Life?
+          {{ t('contact.title') }}
         </h2>
         <p class="text-xl text-blue-100 max-w-3xl mx-auto">
-          Join thousands of individuals and organizations who have already started their
-          journey to success with Coach 360. Get started today and unlock your potential.
+          {{ t('contact.subtitle') }}
         </p>
       </div>
 
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <!-- Contact information -->
         <div>
-          <h3 class="text-2xl font-bold mb-8">Get In Touch</h3>
+          <h3 class="text-2xl font-bold mb-8">{{ t('contact.getInTouch') }}</h3>
 
+          <!-- Email -->
           <div class="space-y-6">
-            <div
-              v-for="info in contactInfo"
-              :key="info.title"
-              class="flex items-center space-x-4"
-            >
-              <div class="flex items-center justify-center w-8 h-8 text-2xl flex-shrink-0">{{ info.icon }}</div>
+            <div class="flex items-center space-x-4">
+              <div class="flex items-center justify-center w-8 h-8 text-2xl flex-shrink-0">📧</div>
               <div class="min-w-0">
-                <h4 class="font-semibold text-lg mb-1">{{ info.title }}</h4>
-                <p class="text-blue-100 mb-1">{{ info.value }}</p>
-                <p class="text-blue-200 text-sm">{{ info.description }}</p>
+                <h4 class="font-semibold text-lg mb-1">{{ t(`contact.contactInfo.phone.title`) }}</h4>
+                <p class="text-blue-100 mb-1">contact@coach360.ai</p>
+                <p class="text-blue-200 text-sm">{{ t(`contact.contactInfo.phone.description`) }}</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Phone -->
+          <div class="space-y-6">
+            <div class="flex items-center space-x-4">
+              <div class="flex items-center justify-center w-8 h-8 text-2xl flex-shrink-0">📞</div>
+              <div class="min-w-0">
+                <h4 class="font-semibold text-lg mb-1">{{ t(`contact.contactInfo.phone.title`) }}</h4>
+                <p class="text-blue-100 mb-1">+1 (555) 123-4567</p>
+                <p class="text-blue-200 text-sm">{{ t(`contact.contactInfo.phone.description`) }}</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Address -->
+          <div class="space-y-6">
+            <div class="flex items-center space-x-4">
+              <div class="flex items-center justify-center w-8 h-8 text-2xl flex-shrink-0">📍</div>
+              <div class="min-w-0">
+                <h4 class="font-semibold text-lg mb-1">{{ t(`contact.contactInfo.address.title`) }}</h4>
+                <p class="text-blue-100 mb-1">123 Innovation Drive, Tech City, TC 12345</p>
+                <p class="text-blue-200 text-sm">{{ t(`contact.contactInfo.address.description`) }}</p>
               </div>
             </div>
           </div>
 
           <!-- Social links -->
           <div class="mt-8">
-            <h4 class="font-semibold text-lg mb-4">Follow Us</h4>
+            <h4 class="font-semibold text-lg mb-4">{{ t('contact.followUs') }}</h4>
             <div class="flex space-x-4">
               <a
                 v-for="social in socialLinks"
-                :key="social.name"
+                :key="social.key"
                 :href="social.url"
                 class="bg-white/20 hover:bg-white/30 rounded-lg p-3 transition-colors duration-300"
               >
@@ -81,54 +98,54 @@ const socialLinks = [
 
         <!-- Contact form -->
         <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-8">
-          <h3 class="text-2xl font-bold mb-6">Start Your Journey</h3>
+          <h3 class="text-2xl font-bold mb-6">{{ t('contact.form.title') }}</h3>
           <form class="space-y-6">
             <div>
-              <label for="name" class="block text-sm font-medium mb-2">Full Name</label>
+              <label for="name" class="block text-sm font-medium mb-2">{{ t('contact.form.fullName') }}</label>
               <input
                 type="text"
                 id="name"
                 name="name"
                 class="w-full px-4 py-3 bg-white/20 border border-white/30 rounded-lg text-white placeholder-white/70 focus:outline-none focus:ring-2 focus:ring-white/50"
-                placeholder="Enter your full name"
+                :placeholder="t('contact.form.placeholder.name')"
               >
             </div>
 
             <div>
-              <label for="email" class="block text-sm font-medium mb-2">Email Address</label>
+              <label for="email" class="block text-sm font-medium mb-2">{{ t('contact.form.email') }}</label>
               <input
                 type="email"
                 id="email"
                 name="email"
                 class="w-full px-4 py-3 bg-white/20 border border-white/30 rounded-lg text-white placeholder-white/70 focus:outline-none focus:ring-2 focus:ring-white/50"
-                placeholder="Enter your email address"
+                :placeholder="t('contact.form.placeholder.email')"
               >
             </div>
 
             <div>
-              <label for="interest" class="block text-sm font-medium mb-2">Area of Interest</label>
+              <label for="interest" class="block text-sm font-medium mb-2">{{ t('contact.form.areaOfInterest') }}</label>
               <select
                 id="interest"
                 name="interest"
                 class="w-full px-4 py-3 bg-white/20 border border-white/30 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-white/50"
               >
-                <option value="" class="bg-gray-900">Select your area of interest</option>
-                <option value="individual" class="bg-gray-900">Individual Coaching</option>
-                <option value="team" class="bg-gray-900">Team Coaching</option>
-                <option value="business" class="bg-gray-900">Business Coaching</option>
-                <option value="economic" class="bg-gray-900">Economic Coaching</option>
-                <option value="children" class="bg-gray-900">Children's Coaching</option>
+                <option value="" class="bg-gray-900">{{ t('contact.form.placeholder.selectInterest') }}</option>
+                <option value="individual" class="bg-gray-900">{{ t('contact.form.options.individual') }}</option>
+                <option value="team" class="bg-gray-900">{{ t('contact.form.options.team') }}</option>
+                <option value="business" class="bg-gray-900">{{ t('contact.form.options.business') }}</option>
+                <option value="economic" class="bg-gray-900">{{ t('contact.form.options.economic') }}</option>
+                <option value="children" class="bg-gray-900">{{ t('contact.form.options.children') }}</option>
               </select>
             </div>
 
             <div>
-              <label for="message" class="block text-sm font-medium mb-2">Message</label>
+              <label for="message" class="block text-sm font-medium mb-2">{{ t('contact.form.message') }}</label>
               <textarea
                 id="message"
                 name="message"
                 rows="4"
                 class="w-full px-4 py-3 bg-white/20 border border-white/30 rounded-lg text-white placeholder-white/70 focus:outline-none focus:ring-2 focus:ring-white/50"
-                placeholder="Tell us about your goals..."
+                :placeholder="t('contact.form.placeholder.message')"
               ></textarea>
             </div>
 
@@ -136,7 +153,7 @@ const socialLinks = [
               type="submit"
               class="w-full bg-white text-blue-600 font-semibold py-4 px-6 rounded-lg hover:bg-blue-50 transition-colors duration-300 transform hover:scale-105"
             >
-              Get Started Today
+              {{ t('contact.form.getStarted') }}
             </button>
           </form>
         </div>
@@ -145,18 +162,18 @@ const socialLinks = [
       <!-- Newsletter signup -->
       <div class="mt-16 text-center">
         <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-8 max-w-2xl mx-auto">
-          <h3 class="text-2xl font-bold mb-4">Stay Updated</h3>
+          <h3 class="text-2xl font-bold mb-4">{{ t('contact.newsletter.title') }}</h3>
           <p class="text-blue-100 mb-6">
-            Subscribe to our newsletter for the latest coaching insights and platform updates.
+            {{ t('contact.newsletter.subtitle') }}
           </p>
           <div class="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
             <input
               type="email"
-              placeholder="Enter your email"
+              :placeholder="t('contact.newsletter.emailPlaceholder')"
               class="flex-1 px-4 py-3 bg-white/20 border border-white/30 rounded-lg text-white placeholder-white/70 focus:outline-none focus:ring-2 focus:ring-white/50"
             >
             <button class="bg-white text-blue-600 font-semibold py-3 px-6 rounded-lg hover:bg-blue-50 transition-colors duration-300">
-              Subscribe
+              {{ t('contact.newsletter.subscribe') }}
             </button>
           </div>
         </div>

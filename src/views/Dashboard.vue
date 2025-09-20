@@ -1,7 +1,9 @@
 <script setup lang="ts">
-// Dashboard page - AI-powered coaching dashboard
+import { useI18n } from 'vue-i18n'
 import Header from '@/components/layout/Header.vue'
 import Footer from '@/components/layout/Footer.vue'
+
+const { t } = useI18n()
 
 // Mock data for demonstration
 const userStats = {
@@ -97,18 +99,17 @@ const aiInsights = [
         <div class="flex flex-col lg:flex-row items-center justify-between">
           <div>
             <h1 class="text-3xl md:text-5xl font-bold mb-4">
-              Your AI-Powered Dashboard
+              {{ t('dashboard.title') }}
             </h1>
             <p class="text-xl text-purple-100 max-w-2xl">
-              Track your progress, analyze your performance, and get intelligent insights
-              to accelerate your personal and professional growth.
+              {{ t('dashboard.subtitle') }}
             </p>
           </div>
           <div class="mt-8 lg:mt-0">
             <div class="bg-white/20 backdrop-blur-sm rounded-2xl p-6">
               <div class="text-center">
                 <div class="text-3xl font-bold">{{ userStats.averageProgress }}%</div>
-                <div class="text-purple-100">Overall Progress</div>
+                <div class="text-purple-100">{{ t('dashboard.overallProgress') }}</div>
               </div>
             </div>
           </div>
@@ -122,19 +123,19 @@ const aiInsights = [
         <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
           <div class="text-center">
             <div class="text-3xl font-bold text-blue-600">{{ userStats.totalSessions }}</div>
-            <div class="text-gray-600">Total Sessions</div>
+            <div class="text-gray-600">{{ t('dashboard.stats.totalSessions') }}</div>
           </div>
           <div class="text-center">
             <div class="text-3xl font-bold text-green-600">{{ userStats.completedGoals }}</div>
-            <div class="text-gray-600">Goals Completed</div>
+            <div class="text-gray-600">{{ t('dashboard.stats.goalsCompleted') }}</div>
           </div>
           <div class="text-center">
             <div class="text-3xl font-bold text-purple-600">{{ userStats.currentStreak }}</div>
-            <div class="text-gray-600">Day Streak</div>
+            <div class="text-gray-600">{{ t('dashboard.stats.dayStreak') }}</div>
           </div>
           <div class="text-center">
             <div class="text-3xl font-bold text-orange-600">{{ userStats.averageProgress }}%</div>
-            <div class="text-gray-600">Avg. Progress</div>
+            <div class="text-gray-600">{{ t('dashboard.stats.avgProgress') }}</div>
           </div>
         </div>
       </div>
@@ -148,7 +149,7 @@ const aiInsights = [
           <!-- Recent Sessions -->
           <div class="lg:col-span-2">
             <div class="bg-white rounded-2xl p-6 shadow-lg">
-              <h3 class="text-xl font-bold text-gray-900 mb-6">Recent Sessions</h3>
+              <h3 class="text-xl font-bold text-gray-900 mb-6">{{ t('dashboard.recentSessions') }}</h3>
               <div class="space-y-4">
                 <div
                   v-for="session in recentSessions"
@@ -181,7 +182,7 @@ const aiInsights = [
           <!-- AI Insights -->
           <div>
             <div class="bg-white rounded-2xl p-6 shadow-lg">
-              <h3 class="text-xl font-bold text-gray-900 mb-6">AI Insights</h3>
+              <h3 class="text-xl font-bold text-gray-900 mb-6">{{ t('dashboard.aiInsights') }}</h3>
               <div class="space-y-4">
                 <div
                   v-for="insight in aiInsights"
@@ -204,7 +205,7 @@ const aiInsights = [
         <!-- Goals Progress -->
         <div class="mt-8">
           <div class="bg-white rounded-2xl p-6 shadow-lg">
-            <h3 class="text-xl font-bold text-gray-900 mb-6">Goals Progress</h3>
+            <h3 class="text-xl font-bold text-gray-900 mb-6">{{ t('dashboard.goalsProgress') }}</h3>
             <div class="space-y-6">
               <div
                 v-for="goal in goals"
@@ -221,7 +222,7 @@ const aiInsights = [
                       'bg-blue-100 text-blue-800': goal.status === 'on-track'
                     }"
                   >
-                    {{ goal.status.replace('-', ' ') }}
+                    {{ t(`dashboard.status.${goal.status}`) }}
                   </span>
                 </div>
                 <div class="flex justify-between items-center mb-2">
@@ -250,21 +251,20 @@ const aiInsights = [
     <section class="bg-gray-900 text-white py-16">
       <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 class="text-3xl md:text-4xl font-bold mb-6">
-          Ready for Your Next Session?
+          {{ t('dashboard.ctaTitle') }}
         </h2>
         <p class="text-xl text-gray-300 mb-8">
-          Schedule your next coaching session and continue your journey to success
-          with personalized guidance from our expert coaches.
+          {{ t('dashboard.ctaSubtitle') }}
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
           <button class="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white font-semibold py-4 px-8 rounded-lg transition-all duration-300">
-            Schedule Next Session
+            {{ t('dashboard.scheduleSession') }}
           </button>
           <router-link
             to="/"
             class="border-2 border-white/30 hover:border-white/50 text-white font-semibold py-4 px-8 rounded-lg transition-all duration-300 hover:bg-white/10"
           >
-            Back to Home
+            {{ t('dashboard.backToHome') }}
           </router-link>
         </div>
       </div>

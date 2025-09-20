@@ -1,24 +1,23 @@
 <script setup lang="ts">
-// About section - company and platform information
+import { useI18n } from 'vue-i18n'
+
+const { t } = useI18n()
+
 const values = [
   {
-    title: 'Innovation',
-    description: 'We leverage cutting-edge AI technology to deliver personalized coaching experiences.',
+    key: 'innovation',
     icon: '💡'
   },
   {
-    title: 'Excellence',
-    description: 'Our platform maintains the highest standards of coaching quality and user experience.',
+    key: 'excellence',
     icon: '⭐'
   },
   {
-    title: 'Accessibility',
-    description: 'We make professional coaching accessible to everyone, regardless of location or schedule.',
+    key: 'accessibility',
     icon: '🌍'
   },
   {
-    title: 'Results',
-    description: 'Our data-driven approach ensures measurable progress and tangible outcomes.',
+    key: 'results',
     icon: '🎯'
   }
 ]
@@ -51,11 +50,10 @@ const team = [
       <!-- Section header -->
       <div class="text-center mb-16">
         <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-          About Coach 360
+          {{ t('about.title') }}
         </h2>
         <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-          We're pioneering the future of coaching by combining human expertise with
-          artificial intelligence to create transformative learning experiences.
+          {{ t('about.subtitle') }}
         </p>
       </div>
 
@@ -63,12 +61,10 @@ const team = [
       <div class="bg-white rounded-2xl p-8 md:p-12 mb-16 shadow-lg">
         <div class="max-w-4xl mx-auto text-center">
           <h3 class="text-2xl md:text-3xl font-bold text-gray-900 mb-6">
-            Our Mission
+            {{ t('about.mission') }}
           </h3>
           <p class="text-lg text-gray-600 leading-relaxed">
-            To democratize access to high-quality coaching by leveraging AI technology to provide
-            personalized, affordable, and accessible coaching solutions that help individuals,
-            teams, and organizations achieve their full potential across all domains of life.
+            {{ t('about.missionText') }}
           </p>
         </div>
       </div>
@@ -77,15 +73,15 @@ const team = [
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
         <div
           v-for="value in values"
-          :key="value.title"
+          :key="value.key"
           class="text-center"
         >
           <div class="text-4xl mb-4">{{ value.icon }}</div>
           <h4 class="text-lg font-semibold text-gray-900 mb-2">
-            {{ value.title }}
+            {{ t(`about.values.${value.key}.title`) }}
           </h4>
           <p class="text-gray-600 text-sm">
-            {{ value.description }}
+            {{ t(`about.values.${value.key}.description`) }}
           </p>
         </div>
       </div>
@@ -93,11 +89,10 @@ const team = [
       <!-- Team section -->
       <div class="text-center mb-12">
         <h3 class="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
-          Meet Our Leadership Team
+          {{ t('about.team.title') }}
         </h3>
         <p class="text-gray-600 max-w-2xl mx-auto">
-          Our diverse team of AI experts, certified coaches, and researchers work together
-          to create the most advanced coaching platform available.
+          {{ t('about.team.subtitle') }}
         </p>
       </div>
 

@@ -44,40 +44,75 @@
     "individualCoaching": {
       "title": "Coaching Individuel",
       "description": "Séances de coaching personnalisées en tête-à-tête adaptées à vos objectifs uniques et besoins de développement.",
-      "features": ["Plans de développement personnalisés", "Suivi individuel des progrès", "Planification flexible", "Support IA 24/7", "Séances orientées objectifs"],
-      "benefits": ["Croissance personnelle accélérée", "Amélioration de la conscience de soi", "Compétences de prise de décision améliorées", "Confiance et motivation accrues"],
+      "feature1": "Plans de développement personnalisés",
+      "feature2": "Suivi individuel des progrès",
+      "feature3": "Planification flexible",
+      "feature4": "Support IA 24/7",
+      "feature5": "Séances orientées objectifs",
+      "benefit1": "Croissance personnelle accélérée",
+      "benefit2": "Amélioration de la conscience de soi",
+      "benefit3": "Compétences de prise de décision améliorées",
+      "benefit4": "Confiance et motivation accrues",
       "duration": "60 minutes par séance",
       "frequency": "Hebdomadaire ou bimensuel"
     },
     "teamCoaching": {
       "title": "Coaching d'Équipe",
       "description": "Optimisez la dynamique d'équipe et les compétences de leadership avec des programmes de coaching de groupe complets.",
-      "features": ["Optimisation de la dynamique d'équipe", "Développement du leadership", "Séances de coaching de groupe", "Stratégies de résolution de conflits", "Suivi des métriques de performance"],
-      "benefits": ["Amélioration de la collaboration d'équipe", "Capacités de leadership améliorées", "Meilleures compétences de communication", "Productivité et efficacité accrues"],
+      "feature1": "Optimisation de la dynamique d'équipe",
+      "feature2": "Développement du leadership",
+      "feature3": "Séances de coaching de groupe",
+      "feature4": "Stratégies de résolution de conflits",
+      "feature5": "Suivi des métriques de performance",
+      "benefit1": "Amélioration de la collaboration d'équipe",
+      "benefit2": "Capacités de leadership améliorées",
+      "benefit3": "Meilleures compétences de communication",
+      "benefit4": "Productivité et efficacité accrues",
       "duration": "90 minutes par séance",
       "frequency": "Séances d'équipe hebdomadaires"
     },
     "businessCoaching": {
       "title": "Coaching d'Affaires",
       "description": "Conseils stratégiques d'affaires pour optimiser les performances et stimuler la croissance organisationnelle.",
-      "features": ["Développement de stratégie d'affaires", "Optimisation des performances", "Amélioration des processus", "Gestion du changement", "Coaching de leadership exécutif"],
-      "benefits": ["Croissance stratégique d'affaires", "Efficacité opérationnelle améliorée", "Avantage concurrentiel renforcé", "Développement organisationnel durable"],
+      "feature1": "Développement de stratégie d'affaires",
+      "feature2": "Optimisation des performances",
+      "feature3": "Amélioration des processus",
+      "feature4": "Gestion du changement",
+      "feature5": "Coaching de leadership exécutif",
+      "benefit1": "Croissance stratégique d'affaires",
+      "benefit2": "Efficacité opérationnelle améliorée",
+      "benefit3": "Avantage concurrentiel renforcé",
+      "benefit4": "Développement organisationnel durable",
       "duration": "75 minutes par séance",
       "frequency": "Bimensuel ou mensuel"
     },
     "economicCoaching": {
       "title": "Coaching Économique",
       "description": "Naviguez les tendances économiques et prenez des décisions financières éclairées avec l'expertise guidée.",
-      "features": ["Conseils de stratégie financière", "Analyse des tendances économiques", "Coaching d'investissement", "Intelligence de marché", "Évaluation et gestion des risques"],
-      "benefits": ["Amélioration de la prise de décision financière", "Meilleures stratégies d'investissement", "Compréhension économique renforcée", "Construction de richesse à long terme"],
+      "feature1": "Conseils de stratégie financière",
+      "feature2": "Analyse des tendances économiques",
+      "feature3": "Coaching d'investissement",
+      "feature4": "Intelligence de marché",
+      "feature5": "Évaluation et gestion des risques",
+      "benefit1": "Amélioration de la prise de décision financière",
+      "benefit2": "Meilleures stratégies d'investissement",
+      "benefit3": "Compréhension économique renforcée",
+      "benefit4": "Construction de richesse à long terme",
       "duration": "60 minutes par séance",
       "frequency": "Selon les besoins"
     },
     "childrenCoaching": {
       "title": "Coaching pour Enfants",
       "description": "Soutenez les jeunes esprits avec un coaching adapté à l'âge pour la croissance personnelle et le développement.",
-      "features": ["Programmes de développement jeunesse", "Coaching éducatif", "Croissance personnelle", "Développement des compétences sociales", "Construction de la confiance"],
-      "benefits": ["Estime de soi renforcée", "Performance académique améliorée", "Meilleures interactions sociales", "Intelligence émotionnelle plus forte"],
+      "feature1": "Programmes de développement jeunesse",
+      "feature2": "Coaching éducatif",
+      "feature3": "Croissance personnelle",
+      "feature4": "Développement des compétences sociales",
+      "feature5": "Construction de la confiance",
+      "benefit1": "Estime de soi renforcée",
+      "benefit2": "Performance académique améliorée",
+      "benefit3": "Meilleures interactions sociales",
+      "benefit4": "Intelligence émotionnelle plus forte",
       "duration": "45 minutes par séance",
       "frequency": "Séances hebdomadaires"
     },
@@ -93,22 +128,30 @@
     "aiCoach": {
       "title": "Coach IA",
       "description": "Recommandations de coaching intelligentes alimentées par des algorithmes IA avancés qui s'adaptent à votre style d'apprentissage et vos objectifs.",
-      "benefits": ["Recommandations personnalisées", "Parcours d'apprentissage adaptatifs", "Disponibilité 24/7"]
+      "benefit1": "Recommandations personnalisées",
+      "benefit2": "Parcours d'apprentissage adaptatifs",
+      "benefit3": "Disponibilité 24/7"
     },
     "dashboard": {
       "title": "Tableau de Bord Interactif",
       "description": "Visualisation des données en temps réel et suivi des progrès avec des analyses et insights complets.",
-      "benefits": ["Suivi en temps réel", "Analytiques visuelles", "Insights de progrès"]
+      "benefit1": "Suivi en temps réel",
+      "benefit2": "Analytiques visuelles",
+      "benefit3": "Insights de progrès"
     },
     "reports": {
       "title": "Rapports Intelligents",
       "description": "Système de rapports complet avec analyses détaillées, identification de tendances et modélisation prédictive.",
-      "benefits": ["Analytiques détaillées", "Identification de tendances", "Insights prédictifs"]
+      "benefit1": "Analytiques détaillées",
+      "benefit2": "Identification de tendances",
+      "benefit3": "Insights prédictifs"
     },
     "monitoring": {
       "title": "Surveillance en Temps Réel",
       "description": "Systèmes d'évaluation et de retour continu qui suivent vos progrès et fournissent des conseils instantanés.",
-      "benefits": ["Évaluation continue", "Retour instantané", "Surveillance d'objectifs"]
+      "benefit1": "Évaluation continue",
+      "benefit2": "Retour instantané",
+      "benefit3": "Surveillance d'objectifs"
     },
     "stats": {
       "activeUsers": "Utilisateurs Actifs",
@@ -145,13 +188,7 @@
     },
     "team": {
       "title": "Rencontrez Notre Équipe de Direction",
-      "subtitle": "Notre équipe diversifiée d'experts IA, de coachs certifiés et de chercheurs travaillent ensemble pour créer la plateforme de coaching la plus avancée disponible.",
-      "chiefAIOfficer": "Directeur IA",
-      "headOfCoaching": "Directeur du Coaching",
-      "researchDirector": "Directeur de la Recherche",
-      "leadingAI": "Dirige la recherche et le développement IA avec 15+ années en apprentissage automatique.",
-      "certifiedCoach": "Coach exécutif certifié avec expertise en développement du leadership.",
-      "phdPsychology": "PhD en Psychologie, spécialisé en science comportementale et méthodologies de coaching."
+      "subtitle": "Notre équipe diversifiée d'experts IA, de coachs certifiés et de chercheurs travaillent ensemble pour créer la plateforme de coaching la plus avancée disponible."
     }
   },
   "contact": {
@@ -161,17 +198,14 @@
     "contactInfo": {
       "email": {
         "title": "Email",
-        "value": "hello@coach360.ai",
         "description": "Entrez en contact avec notre équipe"
       },
       "phone": {
         "title": "Téléphone",
-        "value": "+1 (555) 123-4567",
         "description": "Parlez avec un expert en coaching"
       },
       "address": {
         "title": "Adresse",
-        "value": "123 Innovation Drive, Tech City, TC 12345",
         "description": "Visitez notre siège social"
       }
     },
@@ -226,7 +260,9 @@
     "status": {
       "completed": "terminé",
       "needsAttention": "nécessite attention",
-      "onTrack": "sur la bonne voie"
+      "onTrack": "sur la bonne voie",
+      "needs-attention": "nécessite attention",
+      "on-track": "sur la bonne voie"
     },
     "ctaTitle": "Prêt pour Votre Prochaine Séance?",
     "ctaSubtitle": "Planifiez votre prochaine séance de coaching et continuez votre voyage vers le succès avec des conseils personnalisés de nos coachs experts.",

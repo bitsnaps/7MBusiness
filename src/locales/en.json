@@ -44,40 +44,75 @@
     "individualCoaching": {
       "title": "Individual Coaching",
       "description": "Personalized one-on-one coaching sessions tailored to your unique goals and development needs.",
-      "features": ["Personalized development plans", "Individual progress tracking", "Flexible scheduling", "24/7 AI support", "Goal-oriented sessions"],
-      "benefits": ["Accelerated personal growth", "Improved self-awareness", "Enhanced decision-making skills", "Increased confidence and motivation"],
+      "feature1": "Personalized development plans",
+      "feature2": "Individual progress tracking",
+      "feature3": "Flexible scheduling",
+      "feature4": "24/7 AI support",
+      "feature5": "Goal-oriented sessions",
+      "benefit1": "Accelerated personal growth",
+      "benefit2": "Improved self-awareness",
+      "benefit3": "Enhanced decision-making skills",
+      "benefit4": "Increased confidence and motivation",
       "duration": "60 minutes per session",
       "frequency": "Weekly or bi-weekly"
     },
     "teamCoaching": {
       "title": "Team Coaching",
       "description": "Optimize team dynamics and leadership skills with comprehensive group coaching programs.",
-      "features": ["Team dynamics optimization", "Leadership development", "Group coaching sessions", "Conflict resolution strategies", "Performance metrics tracking"],
-      "benefits": ["Improved team collaboration", "Enhanced leadership capabilities", "Better communication skills", "Increased productivity and efficiency"],
+      "feature1": "Team dynamics optimization",
+      "feature2": "Leadership development",
+      "feature3": "Group coaching sessions",
+      "feature4": "Conflict resolution strategies",
+      "feature5": "Performance metrics tracking",
+      "benefit1": "Improved team collaboration",
+      "benefit2": "Enhanced leadership capabilities",
+      "benefit3": "Better communication skills",
+      "benefit4": "Increased productivity and efficiency",
       "duration": "90 minutes per session",
       "frequency": "Weekly team sessions"
     },
     "businessCoaching": {
       "title": "Business Coaching",
       "description": "Strategic business guidance to optimize performance and drive organizational growth.",
-      "features": ["Business strategy development", "Performance optimization", "Process improvement", "Change management", "Executive leadership coaching"],
-      "benefits": ["Strategic business growth", "Improved operational efficiency", "Enhanced competitive advantage", "Sustainable organizational development"],
+      "feature1": "Business strategy development",
+      "feature2": "Performance optimization",
+      "feature3": "Process improvement",
+      "feature4": "Change management",
+      "feature5": "Executive leadership coaching",
+      "benefit1": "Strategic business growth",
+      "benefit2": "Improved operational efficiency",
+      "benefit3": "Enhanced competitive advantage",
+      "benefit4": "Sustainable organizational development",
       "duration": "75 minutes per session",
       "frequency": "Bi-weekly or monthly"
     },
     "economicCoaching": {
       "title": "Economic Coaching",
       "description": "Navigate economic trends and make informed financial decisions with expert guidance.",
-      "features": ["Financial strategy guidance", "Economic trend analysis", "Investment coaching", "Market intelligence", "Risk assessment and management"],
-      "benefits": ["Improved financial decision-making", "Better investment strategies", "Enhanced economic understanding", "Long-term wealth building"],
+      "feature1": "Financial strategy guidance",
+      "feature2": "Economic trend analysis",
+      "feature3": "Investment coaching",
+      "feature4": "Market intelligence",
+      "feature5": "Risk assessment and management",
+      "benefit1": "Improved financial decision-making",
+      "benefit2": "Better investment strategies",
+      "benefit3": "Enhanced economic understanding",
+      "benefit4": "Long-term wealth building",
       "duration": "60 minutes per session",
       "frequency": "As needed basis"
     },
     "childrenCoaching": {
       "title": "Children's Coaching",
       "description": "Support young minds with age-appropriate coaching for personal growth and development.",
-      "features": ["Youth development programs", "Educational coaching", "Personal growth", "Social skills development", "Confidence building"],
-      "benefits": ["Enhanced self-esteem", "Improved academic performance", "Better social interactions", "Stronger emotional intelligence"],
+      "feature1": "Youth development programs",
+      "feature2": "Educational coaching",
+      "feature3": "Personal growth",
+      "feature4": "Social skills development",
+      "feature5": "Confidence building",
+      "benefit1": "Enhanced self-esteem",
+      "benefit2": "Improved academic performance",
+      "benefit3": "Better social interactions",
+      "benefit4": "Stronger emotional intelligence",
       "duration": "45 minutes per session",
       "frequency": "Weekly sessions"
     },
@@ -93,22 +128,30 @@
     "aiCoach": {
       "title": "AI Coach",
       "description": "Intelligent coaching recommendations powered by advanced AI algorithms that adapt to your learning style and goals.",
-      "benefits": ["Personalized recommendations", "Adaptive learning paths", "24/7 availability"]
+      "benefit1": "Personalized recommendations",
+      "benefit2": "Adaptive learning paths",
+      "benefit3": "24/7 availability"
     },
     "dashboard": {
       "title": "Interactive Dashboard",
       "description": "Real-time data visualization and progress tracking with comprehensive analytics and insights.",
-      "benefits": ["Real-time tracking", "Visual analytics", "Progress insights"]
+      "benefit1": "Real-time tracking",
+      "benefit2": "Visual analytics",
+      "benefit3": "Progress insights"
     },
     "reports": {
       "title": "Smart Reports",
       "description": "Comprehensive reporting system with detailed analytics, trend identification, and predictive modeling.",
-      "benefits": ["Detailed analytics", "Trend identification", "Predictive insights"]
+      "benefit1": "Detailed analytics",
+      "benefit2": "Trend identification",
+      "benefit3": "Predictive insights"
     },
     "monitoring": {
       "title": "Real-time Monitoring",
       "description": "Continuous assessment and feedback systems that track your progress and provide instant guidance.",
-      "benefits": ["Continuous assessment", "Instant feedback", "Goal monitoring"]
+      "benefit1": "Continuous assessment",
+      "benefit2": "Instant feedback",
+      "benefit3": "Goal monitoring"
     },
     "stats": {
       "activeUsers": "Active Users",
@@ -145,13 +188,7 @@
     },
     "team": {
       "title": "Meet Our Leadership Team",
-      "subtitle": "Our diverse team of AI experts, certified coaches, and researchers work together to create the most advanced coaching platform available.",
-      "chiefAIOfficer": "Chief AI Officer",
-      "headOfCoaching": "Head of Coaching",
-      "researchDirector": "Research Director",
-      "leadingAI": "Leading AI research and development with 15+ years in machine learning.",
-      "certifiedCoach": "Certified executive coach with expertise in leadership development.",
-      "phdPsychology": "PhD in Psychology, specializing in behavioral science and coaching methodologies."
+      "subtitle": "Our diverse team of AI experts, certified coaches, and researchers work together to create the most advanced coaching platform available."
     }
   },
   "contact": {
@@ -161,17 +198,14 @@
     "contactInfo": {
       "email": {
         "title": "Email",
-        "value": "hello@coach360.ai",
         "description": "Get in touch with our team"
       },
       "phone": {
         "title": "Phone",
-        "value": "+1 (555) 123-4567",
         "description": "Speak with a coaching expert"
       },
       "address": {
         "title": "Address",
-        "value": "123 Innovation Drive, Tech City, TC 12345",
         "description": "Visit our headquarters"
       }
     },
@@ -226,7 +260,9 @@
     "status": {
       "completed": "completed",
       "needsAttention": "needs attention",
-      "onTrack": "on track"
+      "onTrack": "on track",
+      "needs-attention": "needs attention",
+      "on-track": "on track"
     },
     "ctaTitle": "Ready for Your Next Session?",
     "ctaSubtitle": "Schedule your next coaching session and continue your journey to success with personalized guidance from our expert coaches.",
