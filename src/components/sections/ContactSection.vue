@@ -134,7 +134,7 @@ const socialLinks = [
                 <option value="team" class="bg-gray-900">{{ t('contact.form.options.team') }}</option>
                 <option value="business" class="bg-gray-900">{{ t('contact.form.options.business') }}</option>
                 <option value="economic" class="bg-gray-900">{{ t('contact.form.options.economic') }}</option>
-                <option value="children" class="bg-gray-900">{{ t('contact.form.options.children') }}</option>
+                <option value="students" class="bg-gray-900">{{ t('contact.form.options.students') }}</option>
               </select>
             </div>
 

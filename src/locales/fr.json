@@ -17,7 +17,7 @@
     "teamCoaching": "Coaching d'Équipe",
     "businessCoaching": "Coaching d'Affaires",
     "economicCoaching": "Coaching Économique",
-    "childrenCoaching": "Coaching pour Enfants",
+    "studentsCoaching": "Coaching pour Étudiants",
     "aiCoach": "Coach IA",
     "dashboard": "Tableau de bord",
     "reports": "Rapports",
@@ -101,20 +101,20 @@
       "duration": "60 minutes par séance",
       "frequency": "Selon les besoins"
     },
-    "childrenCoaching": {
-      "title": "Coaching pour Enfants",
-      "description": "Soutenez les jeunes esprits avec un coaching adapté à l'âge pour la croissance personnelle et le développement.",
-      "feature1": "Programmes de développement jeunesse",
-      "feature2": "Coaching éducatif",
-      "feature3": "Croissance personnelle",
-      "feature4": "Développement des compétences sociales",
-      "feature5": "Construction de la confiance",
-      "benefit1": "Estime de soi renforcée",
-      "benefit2": "Performance académique améliorée",
-      "benefit3": "Meilleures interactions sociales",
-      "benefit4": "Intelligence émotionnelle plus forte",
-      "duration": "45 minutes par séance",
-      "frequency": "Séances hebdomadaires"
+    "studentsCoaching": {
+      "title": "Coaching pour Étudiants",
+      "description": "Coaching spécialisé pour aider les étudiants à construire leur carrière et décrocher leur emploi de rêve avec un accompagnement expert.",
+      "feature1": "Développement de carrière et orientation",
+      "feature2": "Stratégies de recherche d'emploi et préparation",
+      "feature3": "Compétences et techniques d'entretien",
+      "feature4": "Construction et optimisation de CV",
+      "feature5": "Compétences de réseautage professionnel",
+      "benefit1": "Direction et objectifs de carrière clairs",
+      "benefit2": "Efficacité de recherche d'emploi améliorée",
+      "benefit3": "Performance d'entretien améliorée",
+      "benefit4": "Réseau professionnel plus fort",
+      "duration": "60 minutes par séance",
+      "frequency": "Séances hebdomadaires ou bimensuelles"
     },
     "learnMore": "En Savoir Plus",
     "getPersonalizedRecommendation": "Obtenir une Recommandation Personnalisée",
@@ -233,7 +233,7 @@
         "team": "Coaching d'Équipe",
         "business": "Coaching d'Affaires",
         "economic": "Coaching Économique",
-        "children": "Coaching pour Enfants"
+        "students": "Coaching pour Étudiants"
       },
       "getStarted": "Commencer Aujourd'hui"
     },

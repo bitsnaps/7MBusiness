@@ -17,7 +17,7 @@
     "teamCoaching": "Team Coaching",
     "businessCoaching": "Business Coaching",
     "economicCoaching": "Economic Coaching",
-    "childrenCoaching": "Children's Coaching",
+    "studentsCoaching": "Student's Coaching",
     "aiCoach": "AI Coach",
     "dashboard": "Dashboard",
     "reports": "Reports",
@@ -101,20 +101,20 @@
       "duration": "60 minutes per session",
       "frequency": "As needed basis"
     },
-    "childrenCoaching": {
-      "title": "Children's Coaching",
-      "description": "Support young minds with age-appropriate coaching for personal growth and development.",
-      "feature1": "Youth development programs",
-      "feature2": "Educational coaching",
-      "feature3": "Personal growth",
-      "feature4": "Social skills development",
-      "feature5": "Confidence building",
-      "benefit1": "Enhanced self-esteem",
-      "benefit2": "Improved academic performance",
-      "benefit3": "Better social interactions",
-      "benefit4": "Stronger emotional intelligence",
-      "duration": "45 minutes per session",
-      "frequency": "Weekly sessions"
+    "studentsCoaching": {
+      "title": "Student's Coaching",
+      "description": "Specialized coaching to help students build careers and land their dream jobs with expert guidance.",
+      "feature1": "Career development and guidance",
+      "feature2": "Job search strategies and preparation",
+      "feature3": "Interview skills and techniques",
+      "feature4": "Resume building and optimization",
+      "feature5": "Professional networking skills",
+      "benefit1": "Clear career direction and goals",
+      "benefit2": "Enhanced job search effectiveness",
+      "benefit3": "Improved interview performance",
+      "benefit4": "Stronger professional network",
+      "duration": "60 minutes per session",
+      "frequency": "Weekly or bi-weekly sessions"
     },
     "learnMore": "Learn More",
     "getPersonalizedRecommendation": "Get Personalized Recommendation",
@@ -233,7 +233,7 @@
         "team": "Team Coaching",
         "business": "Business Coaching",
         "economic": "Economic Coaching",
-        "children": "Children's Coaching"
+        "students": "Student's Coaching"
       },
       "getStarted": "Get Started Today"
     },

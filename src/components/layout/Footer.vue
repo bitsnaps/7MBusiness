@@ -70,7 +70,7 @@ const { t } = useI18n()
               {{ t('footer.economicCoaching') }}
             </a></li>
             <li><a href="#" class="group text-slate-300 hover:text-white transition-all duration-300 hover:translate-x-1 no-underline">
-              {{ t('footer.childrenCoaching') }}
+              {{ t('footer.studentsCoaching') }}
             </a></li>
           </ul>
         </div>

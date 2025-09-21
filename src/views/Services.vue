@@ -350,17 +350,17 @@ const { t } = useI18n()
             </button>
           </div>
 
-          <!-- Children's Coaching -->
+          <!-- Student's Coaching -->
           <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
             <div class="flex items-center mb-6">
               <div class="text-4xl mr-4">🌟</div>
               <div>
-                <h3 class="text-2xl font-bold text-gray-900">{{ t('services.childrenCoaching.title') }}</h3>
-                <p class="text-gray-600">{{ t('services.childrenCoaching.duration') }} • {{ t('services.childrenCoaching.frequency') }}</p>
+                <h3 class="text-2xl font-bold text-gray-900">{{ t('services.studentsCoaching.title') }}</h3>
+                <p class="text-gray-600">{{ t('services.studentsCoaching.duration') }} • {{ t('services.studentsCoaching.frequency') }}</p>
               </div>
             </div>
             <p class="text-gray-700 mb-6 leading-relaxed">
-              {{ t('services.childrenCoaching.description') }}
+              {{ t('services.studentsCoaching.description') }}
             </p>
             <div class="mb-6">
               <h4 class="font-semibold text-gray-900 mb-3">{{ t('services.learnMore') }}:</h4>
@@ -369,31 +369,31 @@ const { t } = useI18n()
                   <svg class="w-4 h-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
                   </svg>
-                  {{ t('services.childrenCoaching.feature1') }}
+                  {{ t('services.studentsCoaching.feature1') }}
                 </li>
                 <li class="flex items-center text-gray-600">
                   <svg class="w-4 h-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
                   </svg>
-                  {{ t('services.childrenCoaching.feature2') }}
+                  {{ t('services.studentsCoaching.feature2') }}
                 </li>
                 <li class="flex items-center text-gray-600">
                   <svg class="w-4 h-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
                   </svg>
-                  {{ t('services.childrenCoaching.feature3') }}
+                  {{ t('services.studentsCoaching.feature3') }}
                 </li>
                 <li class="flex items-center text-gray-600">
                   <svg class="w-4 h-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
                   </svg>
-                  {{ t('services.childrenCoaching.feature4') }}
+                  {{ t('services.studentsCoaching.feature4') }}
                 </li>
                 <li class="flex items-center text-gray-600">
                   <svg class="w-4 h-4 text-green-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
                   </svg>
-                  {{ t('services.childrenCoaching.feature5') }}
+                  {{ t('services.studentsCoaching.feature5') }}
                 </li>
               </ul>
             </div>
@@ -404,25 +404,25 @@ const { t } = useI18n()
                   <svg class="w-4 h-4 text-blue-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
                   </svg>
-                  {{ t('services.childrenCoaching.benefit1') }}
+                  {{ t('services.studentsCoaching.benefit1') }}
                 </li>
                 <li class="flex items-center text-gray-600">
                   <svg class="w-4 h-4 text-blue-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
                   </svg>
-                  {{ t('services.childrenCoaching.benefit2') }}
+                  {{ t('services.studentsCoaching.benefit2') }}
                 </li>
                 <li class="flex items-center text-gray-600">
                   <svg class="w-4 h-4 text-blue-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
                   </svg>
-                  {{ t('services.childrenCoaching.benefit3') }}
+                  {{ t('services.studentsCoaching.benefit3') }}
                 </li>
                 <li class="flex items-center text-gray-600">
                   <svg class="w-4 h-4 text-blue-500 mr-2" fill="currentColor" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
                   </svg>
-                  {{ t('services.childrenCoaching.benefit4') }}
+                  {{ t('services.studentsCoaching.benefit4') }}
                 </li>
               </ul>
             </div>
