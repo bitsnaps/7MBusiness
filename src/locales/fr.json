@@ -26,12 +26,12 @@
     "contact": "Contact",
     "privacyPolicy": "Politique de Confidentialité",
     "termsOfService": "Conditions de Service",
-    "description": "Plateforme de coaching complète alimentée par l'IA offrant des services de coaching personnalisés dans plusieurs domaines."
+    "description": "Plateforme de coaching complète propulsée par l'IA offrant des services de coaching personnalisés dans plusieurs domaines."
   },
   "hero": {
     "title": "Transformez Votre Potentiel avec le",
-    "titleHighlight": "Coaching Alimenté par l'IA",
-    "subtitle": "Découvrez l'avenir du développement personnel et professionnel avec la plateforme de coaching complète alimentée par l'IA de Coach 360 dans tous les domaines de la vie.",
+    "titleHighlight": "Coaching Propulsé par l'IA",
+    "subtitle": "Découvrez l'avenir du développement personnel et professionnel avec la plateforme de coaching complète propulsée par l'IA de Coach 360 dans tous les domaines de la vie.",
     "startJourney": "Commencez Votre Voyage",
     "watchDemo": "Regarder la Démo",
     "comprehensiveApproach": "Approche Complète",
@@ -40,7 +40,7 @@
   },
   "services": {
     "title": "Services de Coaching Complets",
-    "subtitle": "Découvrez notre gamme complète de services de coaching alimentés par l'IA conçus pour soutenir les individus, les équipes, les entreprises et les organisations dans tous les domaines.",
+    "subtitle": "Découvrez notre gamme complète de services de coaching propulsés par l'IA conçus pour soutenir les individus, les équipes, les entreprises et les organisations dans tous les domaines.",
     "individualCoaching": {
       "title": "Coaching Individuel",
       "description": "Séances de coaching personnalisées en tête-à-tête adaptées à vos objectifs uniques et besoins de développement.",
@@ -119,15 +119,15 @@
     "learnMore": "En Savoir Plus",
     "getPersonalizedRecommendation": "Obtenir une Recommandation Personnalisée",
     "notSure": "Vous ne savez pas quel service vous convient?",
-    "aiRecommendation": "Notre système de recommandation alimenté par l'IA peut vous aider à trouver la solution de coaching parfaite basée sur vos objectifs et besoins uniques.",
+    "aiRecommendation": "Notre système de recommandation propulsé par l'IA peut vous aider à trouver la solution de coaching parfaite basée sur vos objectifs et besoins uniques.",
     "backToHome": "Retour à l'Accueil"
   },
   "features": {
-    "title": "Alimenté par une Technologie IA Avancée",
+    "title": "Propulsé par une Technologie IA Avancée",
     "subtitle": "Découvrez l'avenir du coaching avec notre plateforme IA de pointe qui offre des insights personnalisés, des retours en temps réel et des analyses complètes.",
     "aiCoach": {
       "title": "Coach IA",
-      "description": "Recommandations de coaching intelligentes alimentées par des algorithmes IA avancés qui s'adaptent à votre style d'apprentissage et vos objectifs.",
+      "description": "Recommandations de coaching intelligentes propulsées par des algorithmes IA avancés qui s'adaptent à votre style d'apprentissage et vos objectifs.",
       "benefit1": "Recommandations personnalisées",
       "benefit2": "Parcours d'apprentissage adaptatifs",
       "benefit3": "Disponibilité 24/7"
@@ -160,7 +160,7 @@
       "coachingDomains": "Domaines de Coaching"
     },
     "ctaTitle": "Prêt à Découvrir l'Avenir du Coaching?",
-    "ctaSubtitle": "Rejoignez des milliers d'utilisateurs qui ont transformé leur vie personnelle et professionnelle avec notre plateforme de coaching alimentée par l'IA.",
+    "ctaSubtitle": "Rejoignez des milliers d'utilisateurs qui ont transformé leur vie personnelle et professionnelle avec notre plateforme de coaching propulsée par l'IA.",
     "startFreeTrial": "Commencer l'Essai Gratuit"
   },
   "about": {
@@ -245,7 +245,7 @@
     }
   },
   "dashboard": {
-    "title": "Votre Tableau de Bord Alimenté par l'IA",
+    "title": "Votre Tableau de Bord Propulsé par l'IA",
     "subtitle": "Suivez vos progrès, analysez vos performances et obtenez des insights intelligents pour accélérer votre croissance personnelle et professionnelle.",
     "overallProgress": "Progrès Global",
     "stats": {
