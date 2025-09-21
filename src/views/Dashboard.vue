@@ -2,6 +2,7 @@
 import { useI18n } from 'vue-i18n'
 import Header from '@/components/layout/Header.vue'
 import Footer from '@/components/layout/Footer.vue'
+import BackToTop from '@/components/ui/BackToTop.vue'
 
 const { t } = useI18n()
 
@@ -271,5 +272,6 @@ const aiInsights = [
     </section>
 
     <Footer />
+    <BackToTop />
   </div>
 </template>

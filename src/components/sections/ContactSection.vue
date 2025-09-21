@@ -3,21 +3,6 @@ import { useI18n } from 'vue-i18n'
 
 const { t } = useI18n()
 
-const contactInfo = [
-  {
-    key: 'email',
-    icon: '📧'
-  },
-  {
-    key: 'phone',
-    icon: '📞'
-  },
-  {
-    key: 'address',
-    icon: '📍'
-  }
-]
-
 const socialLinks = [
   { key: 'twitter', icon: '🐦', url: '#' },
   { key: 'linkedin', icon: '💼', url: '#' },
