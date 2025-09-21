@@ -1,5 +1,9 @@
+/* Import fonts for different languages */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -11,6 +15,41 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+/* Professional font classes for different languages */
+.latin-font {
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  direction: ltr;
+  text-align: left;
+  font-feature-settings: 'cv02', 'cv03', 'cv04', 'cv11'; /* Inter's stylistic sets for better readability */
+}
+
+/* Arabic font class */
+.arabic-font {
+  font-family: 'Tajawal', 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  direction: rtl;
+  text-align: right;
+}
+
+/* Enhanced typography for better readability */
+body.latin-font {
+  font-feature-settings: 'kern' 1, 'liga' 1, 'calt' 1, 'pnum' 1, 'tnum' 0, 'onum' 1, 'lnum' 0, 'dlig' 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Improved heading styles */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  letter-spacing: -0.025em;
+  line-height: 1.2;
+}
+
+/* Better paragraph readability */
+p {
+  line-height: 1.6;
+  font-weight: 400;
 }
 
 a {
