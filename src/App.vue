@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { watchEffect } from 'vue'
 import { useI18n } from 'vue-i18n'
+import { useDarkMode } from '@/composables/useDarkMode'
 
 // Main App component - will be updated with router-view
 const { locale } = useI18n()

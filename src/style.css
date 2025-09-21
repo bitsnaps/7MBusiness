@@ -104,14 +104,87 @@ button:focus-visible {
 }
 
 @media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+   :root {
+     color: #213547;
+     background-color: #ffffff;
+   }
+   a:hover {
+     color: #747bff;
+   }
+   button {
+     background-color: #f9f9f9;
+   }
+ }
+
+/* Dark mode styles */
+.dark {
+  color-scheme: dark;
+}
+
+.dark :root {
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+
+.dark body {
+  background-color: #1a1a1a;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.dark .bg-white {
+  background-color: #1a1a1a;
+}
+
+.dark .bg-gray-50 {
+  background-color: #2a2a2a;
+}
+
+.dark .text-gray-900 {
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.dark .text-gray-700 {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.dark .text-gray-600 {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.dark .border-gray-100 {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.dark .border-gray-200 {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.dark .shadow-sm {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
+}
+
+.dark a:hover {
+  color: #747bff;
+}
+
+.dark button {
+  background-color: #2a2a2a;
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.dark button:hover {
+  border-color: #646cff;
+  background-color: #3a3a3a;
+}
+
+.dark .bg-blue-600 {
+  background-color: #4f46e5;
+}
+
+.dark .bg-blue-700 {
+  background-color: #4338ca;
+}
+
+.dark .hover\:bg-blue-700:hover {
+  background-color: #4338ca;
 }

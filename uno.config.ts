@@ -1,9 +1,12 @@
-import { defineConfig, presetUno /* presetWind, presetAttributify, presetIcons */ } from "unocss"
+import { defineConfig, /* presetWind, presetAttributify, presetIcons */ 
+presetWind3 } from "unocss"
 
 export default defineConfig({
     /* by default it comes with 'unocss/uno' which you can include in presets */
     presets: [
-        presetUno(),
+        presetWind3({
+            dark: 'class'
+        }),
         // presetWind(),
         // presetAttributify(),
         // presetIcons()
