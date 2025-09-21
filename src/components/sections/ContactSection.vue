@@ -27,7 +27,7 @@ const socialLinks = [
 </script>
 
 <template>
-  <section class="py-20 bg-gradient-to-br from-blue-600 to-purple-600 text-white">
+  <section id="contact" class="py-20 bg-gradient-to-br from-blue-600 to-purple-600 text-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <!-- Section header -->
       <div class="text-center mb-16">
