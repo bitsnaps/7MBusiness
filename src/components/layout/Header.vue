@@ -36,7 +36,7 @@ const scrollToContact = () => {
         <div class="flex items-center">
           <router-link to="/" class="flex items-center space-x-2" @click="closeMenu">
             <div class="w-8 h-8 bg-gradient-to-r from-blue-100 to-purple-300 rounded-lg flex items-center justify-center">
-              <img src="/logo.jpg" width="32" />
+              <img :src="isDark?'/logo.jpg':'/logo_dark.jpg'" width="32" />
               <!-- <span class="text-white font-bold text-lg">C</span> -->
             </div>
             <span class="text-xl font-bold text-gray-900">7M Business</span>
