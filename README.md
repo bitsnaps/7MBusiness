@@ -1,6 +1,6 @@
-# Coach 360
+# 7M Business
 
-Coach 360 is an AI-powered comprehensive coaching platform that provides personalized coaching services across multiple domains.
+7M Business is an AI-powered comprehensive coaching platform that provides personalized coaching services across multiple domains.
 
 
 ## Get started

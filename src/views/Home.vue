@@ -1,5 +1,4 @@
 <script setup lang="ts">
-// Home page - main landing page for Coach 360
 import Header from '@/components/layout/Header.vue'
 import Footer from '@/components/layout/Footer.vue'
 import BackToTop from '@/components/ui/BackToTop.vue'

@@ -36,10 +36,10 @@ const scrollToContact = () => {
         <div class="flex items-center">
           <router-link to="/" class="flex items-center space-x-2" @click="closeMenu">
             <div class="w-8 h-8 bg-gradient-to-r from-blue-100 to-purple-300 rounded-lg flex items-center justify-center">
-              <img src="/logo.svg" width="16" />
+              <img src="/logo.jpg" width="32" />
               <!-- <span class="text-white font-bold text-lg">C</span> -->
             </div>
-            <span class="text-xl font-bold text-gray-900">Coach 360</span>
+            <span class="text-xl font-bold text-gray-900">7M Business</span>
           </router-link>
         </div>
 
@@ -71,7 +71,7 @@ const scrollToContact = () => {
           <!-- Dark Mode Toggle -->
           <button
             @click="toggleTheme"
-            class="p-2 text-gray-700 hover:text-blue-600 transition-colors rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800"
+            class="p-2 text-white dark:text-gray-900 dark:bg-white hover:text-blue-600 transition-colors rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800"
             :title="isDark ? 'Switch to light mode' : 'Switch to dark mode'"
           >
             <svg v-if="!isDark" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
