@@ -35,7 +35,7 @@ const socialLinks = [
               <div class="flex items-center justify-center w-8 h-8 text-2xl flex-shrink-0">📧</div>
               <div class="min-w-0">
                 <h4 class="font-semibold text-lg mb-1">{{ t(`contact.contactInfo.phone.title`) }}</h4>
-                <p class="text-blue-100 mb-1">contact@7mbusiness.ai</p>
+                <p class="text-blue-100 mb-1">contact@7mbusiness.com</p>
                 <p class="text-blue-200 text-sm">{{ t(`contact.contactInfo.phone.description`) }}</p>
               </div>
             </div>
@@ -47,7 +47,7 @@ const socialLinks = [
               <div class="flex items-center justify-center w-8 h-8 text-2xl flex-shrink-0">📞</div>
               <div class="min-w-0">
                 <h4 class="font-semibold text-lg mb-1">{{ t(`contact.contactInfo.phone.title`) }}</h4>
-                <p class="text-blue-100 mb-1">+1 (555) 123-4567</p>
+                <p class="text-blue-100 mb-1">+213 (0)6.66.65.53.86</p>
                 <p class="text-blue-200 text-sm">{{ t(`contact.contactInfo.phone.description`) }}</p>
               </div>
             </div>
